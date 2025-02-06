@@ -11,7 +11,6 @@ const data = [
       "../projects/PrintOption.png",
       "../projects/LoadFiles.png",
       "../projects/PPTOption.png",
-      "../projects/PPTSlidestoprint.png",
       "../projects/PrintProperties.png",
       "../projects/SummaryConfirm.png",
       "../projects/PrintOption.png",
@@ -22,7 +21,7 @@ const data = [
     mob_images: [
       "../projects/WebApp.jpg",
       "../projects/ChooseFile.jpg",
-      "../projects/UploadSuccessfully.jpg",
+      "../projects/mobileUpload.jpg",
     ],
     tech_images: [
       "../skills/Sharp.png",
