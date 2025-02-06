@@ -9,7 +9,7 @@ const Footer = () => {
           <a href="https://github.com/Dave-Projects">Github</a>
           <a href="https://www.linkedin.com/in/davevisual/">Linkedin</a>
           <a href="https://www.instagram.com/davve_xoxo/">Twitter</a>
-          <a href="hhttps://www.instagram.com/davve_xoxo/">Instagram</a>
+          <a href="https://www.instagram.com/davve_xoxo/">Instagram</a>
           <a href="mailto:daveandrew.visual@gmail.com">Email</a>
 
       </div>

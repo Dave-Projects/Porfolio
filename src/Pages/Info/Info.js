@@ -23,12 +23,18 @@ const Info = () => {
         I’m passionate about music and love playing instruments. From rocking stages to bringing scripts to life, I’ve performed in several plays since my school days.
          Along the way, I’ve bemeen soaking up skills like a digital sponge-always learning, growing, and pushing boundaries (yep, learning might as well be my middle name!)
         </p>
-        <Link to="contact" smooth>
-        <button className={styles.info_coa}>
-          Get to know more <img src="arrowRB.png" alt="" />
-        </button>
-        </Link>
-
+        <a
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+          href="./Dave_Resume.pdf"
+          download
+        >
+          <button className={styles.info_coa}>
+            My Resume <img src="arrowRB.png" alt="" />
+          </button>
+        </a>
       </div>
     </div>
   );
