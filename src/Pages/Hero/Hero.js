@@ -9,9 +9,8 @@ const Hero = () => {
       <Helmet>
         {/* Open Graph Protocol meta tags */}
         <meta property="og:title" content="Dave Andrew Arafol" />
-        <meta property="og:description" content="My name is Punit Kumar Bhesota, a software developer and this is my home on the internet. I design, develop and create websites and apps." />
-        <meta property="og:image" content="./info_pic.jpg"/>
-        <meta property="og:url" content="https://bhesota.web.app" />
+        <meta property="og:description" content="My name is Dave Andrew Arafol, a software developer | Musician | Song writer and this is my home on the internet. I design, develop and create websites and apps." />
+        <meta property="og:image" content="./ADOR.jpg"/>
       </Helmet>
       <div className={styles.heading}>Dave Andrew Arafol</div>
       <div className={styles.hero_info}>
