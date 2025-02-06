@@ -1,0 +1,127 @@
+.footer_main{
+    background-color: black;
+    padding: 60px 20px 20px 20px;
+    text-align: center;
+}
+
+.subheading_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.subheading{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    margin-bottom: 10px;
+}
+
+.prefooter{
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer_links{
+    display: flex;
+}
+
+.footer_link{
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-right: 20px;
+    font-size: 10px;
+}
+
+.sitemap{
+    flex-direction: column;
+    width: 200px;
+    display: flex;
+    align-items: flex-start;   
+}
+
+.sitemap heading{
+    color:white;
+}
+.sitemap div, a{
+    cursor: pointer;
+    color: grey;
+    text-decoration: none; 
+    margin: 6px
+}
+.sitemap div:hover, a:hover{
+    color:white;
+}
+
+.socials heading{
+    color:white;
+}
+
+.footer_heading{
+    text-transform: uppercase;
+    /* display: inline-block; */
+}
+
+.heading {
+    font-family: "Oswald", Impact;
+    font-size: 10vw;
+    letter-spacing: -5px;
+    color: white;
+    margin:0;
+    margin-top: -40px;
+}
+
+
+.top {
+    width: 100px;
+    animation: rotation 8s infinite linear;
+    cursor: pointer;
+    /* margin-left: 90vw; */
+    /* margin-bottom: 10px; */
+    border-radius: 50%;
+  }
+  .top:hover {
+    animation: rotation 1s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@media (max-width: 800px) {
+    .subheading_container{
+        flex-direction: column;
+    }
+    .heading {
+        font-size: 100px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .top {
+      margin-left: 70vw;
+}
+}
+
+@media (max-width: 500px) {
+    .heading {
+      font-size: 70px;
+      letter-spacing: -2px;
+      line-height: -5px;
+    }
+  }

@@ -1,0 +1,94 @@
+.projects {
+  /* height: 100vh; */
+  background-color: transparent;
+  border-radius: 25px;
+  padding:50px 0 0 0; 
+}
+
+.heading {
+  font-family: "Oswald", Impact;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  color:white;
+  margin-bottom:25px;
+}
+
+.works1,
+.works2,
+.works3 {
+  display: flex;
+  /* position: -webkit-sticky; */
+  /* position: sticky; */
+  top: 0;
+  gap:14px;
+  width: 100%;
+  padding:7px 30px;
+}
+.works1 div,
+.works2 div,
+.works3 div {
+  /* height: 70vh; */
+  border-radius: 25px;
+  flex: 1;
+  /* background-color: black; */
+}
+
+.works1 img,
+.works2 img,
+.works3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  filter:sepia();
+  /* opacity: 0.5; */
+}
+
+.works1 img:hover,
+.works2 img:hover,
+.works3 img:hover {
+  /* opacity: 1; */
+  filter: none;
+  transition: 0.3s;
+  /* cursor: pointer; */
+
+}
+
+/* @media (min-width: 1400px) {
+  .works1 div,
+  .works2 div,
+  .works3 div {
+    height: 60vh;
+  }
+} */
+
+@media (max-width: 800px) {
+  .projects {
+    margin: 10px 10px 0px 10px ;
+    border-radius: 0;
+  }
+  .heading {  
+    font-size: 65px;
+  }
+  .works1,
+  .works2,
+  .works3 {
+    flex-direction: column;
+    position: relative;
+    padding: 5px;
+    gap:10px;
+  }
+
+  .works1 img,
+  .works2 img,
+  .works3 img {
+    border-radius: 20px;
+  }
+
+.works1:target img,
+.works2:target img,
+.works3:target img {
+  filter: none; /* Remove filter when targeted */
+}
+}

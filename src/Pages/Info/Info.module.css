@@ -1,0 +1,143 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 0;
+  margin: 30px;
+  border-radius: 25px;
+  color:rgba(255, 255, 255, 0.8);
+}
+.image,
+.bio {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding: 0 30px;
+}
+.main_image {
+  height: 65vh;
+  border-radius: 25px;
+}
+.image {
+  justify-content: flex-end;
+}
+.bio {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:40%
+}
+
+.heading {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.info_coa {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.info_coa img {
+  background-color: rgb(255, 227, 27);
+  border-radius: 50%;
+  padding: 5px;
+  width: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bio_para {
+  font-size: 18px;
+  /* text-align: justify; */
+}
+.logo {
+  width: 200px;  animation: rotation 8s infinite linear;
+  margin-left: -180px;
+  margin-top: -250px;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1400px) {
+  .info {
+    padding: 100px 0;
+  }
+  .main_image {
+    height: 60vh;
+    border-radius: 10px;
+  }
+  .info_coa {
+    margin-top: 30px;
+  }
+  .logo {
+    width: 250px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .info {
+    flex-direction: column;
+  }
+  .image,
+  .bio {
+    width: 100%;
+    padding: 0;
+  }
+  .bio_para { 
+    font-size: 16px;
+  }
+  .image {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_image {
+    display:none;
+
+  }
+  .logo {
+    margin: 0 0 -50px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .info {
+    padding: 100px 0px;
+    margin: 0px;
+    border-radius: 0;
+    background: linear-gradient(180deg,transparent,black,black,black,black,transparent)
+  }
+  .bio {
+    padding: 25px;
+  }
+  .main_image {
+    display:none;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .logo {
+    width: 150px;
+    margin-bottom: -40px;
+  }
+}

@@ -1,0 +1,168 @@
+.contact {
+  height: 100vh;
+  background-color: transparent;
+  color: white;
+  background: linear-gradient(180deg, transparent, black);
+  padding:30px;
+}
+.heading {
+  font-family: "Oswald", Impact;
+  font-size: 130px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+}
+
+.subheading {
+  font-family: "Oswald", Impact;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.contact_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.form {
+  height: 400px;
+  /* background-color: white; */
+  border:1px solid white;
+  width: 500px;
+  margin: 0 20px 0 0px;
+  border-radius: 25px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.form input,
+.form textarea,
+.form button {
+  outline: none;
+  background-color: rgb(245, 255, 102);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px 10px 10px 0;
+  margin: 5px;
+  font-size: 16px;
+  color:white;
+}
+.form button {
+  background-color: rgb(18, 17, 41);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.form textarea {
+  height: 100%;
+  font-family: "Inter";
+  border: none;
+}
+
+.text_div {
+  font-size: 30px;
+  margin-left: 20px;
+  color: white;
+}
+.prefooter {
+  display: flex;
+  width: 100%;
+}
+.prefooter a {
+  flex: 1;
+  text-align: center;
+  padding: 30px 0;
+  text-decoration: none;
+  color: white;
+}
+.prefooter a:nth-child(4) {
+  background-color: rgb(48, 48, 48);
+  border:1px solid white;
+  cursor: url("../../../public/insta.png"), pointer;
+}
+.prefooter a:nth-child(1) {
+  background-color: rgb(48, 48, 48);
+  border:1px solid white;
+  cursor: url("../../../public/github.png"), pointer;
+  /* color: black; */
+}
+.prefooter a:nth-child(2) {
+  background-color:rgb(48, 48, 48);
+  border:1px solid white;
+
+  cursor: url("../../../public/linkedin.png"), pointer;
+}
+
+.prefooter a:nth-child(3) {
+  background-color: rgb(48, 48, 48);
+  border:1px solid white;
+
+  cursor: url("../../../public/twitter.png"), pointer;
+  /* color: black; */
+}
+.footer {
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  padding: 25px 0;
+  position: relative;
+  top: 100%;
+}
+
+.footer a{
+  text-decoration: none;
+  color:white;
+}
+@media (min-width: 1400px) {
+  .contact {
+    padding: 80px;
+    height:80vh;
+  }
+}
+
+@media (max-width: 1400px) {
+  .contact {
+    height:110vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact{
+    height:auto
+  }
+  .heading {
+    font-size: 55px;
+  }
+  .top {
+    margin-left: 70vw;
+  }
+  .prefooter {
+    flex-direction: column;
+  }
+  .prefooter div {
+    padding: 15px 0;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .contact_content {
+    flex-direction: column;
+  }
+  .form {
+    width: 90%;
+    margin: 10px;
+  }
+  .text_div {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
