@@ -16,10 +16,12 @@ const Info = () => {
         <p className={styles.bio_para}>
           My name is <b>Dave Andrew Arafol</b>, just another software developer and this is my home on the internet. I design, develop and create websites and apps.
         </p>
+        <br>
+        </br>
         <p className={styles.bio_para}>
         Speaking of credentials, I'm currently pursuing a Bachelor of Science in Information Technology.
         I’m passionate about music and love playing instruments. From rocking stages to bringing scripts to life, I’ve performed in several plays since my school days.
-         Along the way, I’ve bemeen soaking up skills like a digital sponge—always learning, growing, and pushing boundaries (yep, learning might as well be my middle name!)
+         Along the way, I’ve bemeen soaking up skills like a digital sponge-always learning, growing, and pushing boundaries (yep, learning might as well be my middle name!)
         </p>
         <Link to="contact" smooth>
         <button className={styles.info_coa}>

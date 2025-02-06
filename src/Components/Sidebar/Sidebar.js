@@ -30,7 +30,7 @@ const Sidebar = ({ isVisible, close }) => {
               color: "white",
               textDecoration: "none",
             }}
-            href="./PunitKumarBhesotaResume.pdf"
+            href="./Dave_Resume.pdf"
             download
           >
             <div>Resume</div>
